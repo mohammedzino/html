@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fekra Restaurant</title>
+    <!-- Style Link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Resticon -->
+    <link rel="icon" href="./sweets.ico">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header id="home">
+        <div id="navbar">
+            <img src="c:\Users\pc\Downloads\ةةةةةة-removebg-preview.png" alt="Fekra sweets Logo">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#signUp">SignUp</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="video-background">
+            <video autoplay muted loop id="background-video">
+                <source src="c:\Users\pc\Downloads\تصميم بدون عنوان (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="content">
+            <h1>Welcome To <span class="primary-text">Fekra sweets</span></h1>
+            <p>Discover the finest flavors and unforgettable experiences.</p>
+            <a href="#signUp" class="btn btn-primary">Book a Table</a>
+        </div>
+    </header>
+    <!-- Header End -->
+    <main>
+        <!-- About Section Start -->
+        <section id="about">
+            <div class="container">
+                <div class="title">
+                    <h2>About Fekra sweets</h2>
+                    <p>Celebrating over 15 years of culinary excellence!</p>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <p>At Fekra sweets, we believe in blending tradition with innovation to bring you the best dining experience.</p>
+                        <p>Join us to explore a world of exquisite flavors, crafted with passion and served with love.</p>
+                        <a href="#" class="btn btn-secondary">LEARN MORE</a>
+                    </div>
+                    <img src="c:\Users\pc\Downloads\121-183325-21-exciting-restaurants-world_700x400.jpeg" alt="Restaurant">
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Contact Section Start -->
+        <section id="signUp">
+            <div class="container">
+                <div class="signUp-content">
+                    <div class="signUp-info">
+                        <div>
+                            <h3>ADDRESS</h3>
+                            <p><i class="fa-solid fa-location-dot"></i> Tel al-Hawa, Gaza, Palestine</p>
+                            <p><i class="fa-solid fa-phone"></i> Phone: +972592798818</p>
+                            <p><i class="fa-regular fa-envelope"></i> Email: mohammedzino56@gmail.com</p>
+                        </div>
+
+                        <div class="map-container">
+                            <h1>Our Location</h1>
+                            <iframe
+                                src="https://maps.app.goo.gl/Dni38z9FSZkXSZex8"
+                                allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div>
+                            <h3>FOLLOW US</h3>
+                            <a href="https://www.facebook.com/profile.php?id=100011540375865"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/mohammed._.zino?igsh=MW4ycno0enplamlubg=="><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form>
+                        <input type="text" name="Name" id="name" placeholder="Full Name" required>
+                        <input type="text" name="email" id="email" placeholder="Email Address">
+                        <input type="password" name="password" id="password" placeholder="Enter your password..." required>
+                        <input type="password" name="passwordcon" placeholder="Confirm your password..." required>
+                        <label>Gender: 
+                            <input type="radio" name="gender" value="male"> Male 
+                            <input type="radio" name="gender" value="female" required> Female
+                        </label><br />
+                        <label>
+                            <input type="checkbox" id="terms" name="terms" required> I agree to the Terms and Conditions
+                        </label><br><br>
+                        <button type="submit" class="btn btn-third">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div id="mathResults"></div>
+        </section>
+        <!-- Contact Section End -->
+    </main>
+    <footer id="footer">
+        <p>Copyright &copy; 2024 All rights reserved | Made by <b><a href="https://www.instagram.com/mohammed._.zino?igsh=MW4ycno0enplamlubg==" target="_blank">mohammed zino</a></b></p>
+    </footer>
+</body>
+
+</html>
